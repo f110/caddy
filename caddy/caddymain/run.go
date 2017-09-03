@@ -17,6 +17,7 @@ import (
 
 	"github.com/mholt/caddy"
 	// plug in the HTTP server type
+	_ "github.com/f110/caddy-auth-request"
 	_ "github.com/mholt/caddy/caddyhttp"
 
 	"github.com/mholt/caddy/caddytls"
